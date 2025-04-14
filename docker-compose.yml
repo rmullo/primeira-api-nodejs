@@ -1,0 +1,9 @@
+services:
+  app:
+    build: .
+    volumes:
+      - .:/app     # monta o código local dentro do container
+      - /app/node_modules
+    ports:
+      - "3000:3000"
+    command: npm run dev

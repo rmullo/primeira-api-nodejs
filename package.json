@@ -1,0 +1,30 @@
+{
+  "name": "primeira-api-nodejs",
+  "version": "1.0.0",
+  "description": "Primeiro Projeto de API NodeJS",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "dev": "nodemon --legacy-watch server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rmullo/primeira-api-nodejs.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "API",
+    "Primeira API NodeJS"
+  ],
+  "author": "Rômulo P. Almeida",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rmullo/primeira-api-nodejs.git"
+  },
+  "homepage": "https://github.com/rmullo/primeira-api-nodejs#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9"
+  }
+}
